@@ -33,7 +33,7 @@ function removeKFromList(l, k) {
   let previous = null
   while(l){
     if(l.value === k) {            
-      if(previous===null) {
+      if(previous === null) {
           head = l = l.next
           continue
       } else {
