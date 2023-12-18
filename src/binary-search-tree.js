@@ -43,6 +43,7 @@ class BinarySearchTree {
     // remove line with error and write your code here
   }
 }
+const tree = new BinarySearchTree();
 
 module.exports = {
   BinarySearchTree
